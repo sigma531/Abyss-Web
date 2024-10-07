@@ -455,17 +455,15 @@ const openNewtab = () => {
 };
 
 let splashtext = [
-  "check out discord.gg/gofun games",
-  "made by paxton warin",
-  "want your own link? check out discord.gg/gofun games",
+  "If this gets blocked tell luiz",
+  "made by not me or henry",
+  "better than bottomless pit.vercel.app",
   "thanks for using the site!",
   "check out the settings page",
   "check out the games page",
   "check out the settings to hide from your teacher",
   "need ChatGPT? search for it on the games page!",
-  "shoutout owen, ramsey, and levi",
-  "co owned by wyatt batdorf",
-  "enzo is interesting...",
+  "YOU HAVE BEEN INFECTED WITH TROJAN.JSON",
 ]
 
 const runService = async (url, override, overrideadrbar) => {
