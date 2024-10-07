@@ -397,7 +397,7 @@ html {
   height: 100%;
 }
 
-.abyssCard {
+.fun gamesCard {
   height: 300px;
   width: 550px;
   min-width: 30px;
@@ -504,7 +504,7 @@ html {
   color: #FFF;
 }
 
-.abyssCard h1 {
+.fun gamesCard h1 {
   position: absolute;
   font-family: "Inter", sans-serif;
   font-size: 28px;

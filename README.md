@@ -1,6 +1,6 @@
 <div align="center">
-    <img src="https://raw.githubusercontent.com/AbyssServices/Abyss-Web/main/.github/sources/branding.png">
-    <p>Abyss is an advanced proxy service that provides modern unblocking for all users who use it.</p>
+    <img src="https://raw.githubusercontent.com/fun gamesServices/fun games-Web/main/.github/sources/branding.png">
+    <p>fun games is an advanced proxy service that provides modern unblocking for all users who use it.</p>
 </div>
 
 ![inpreview](https://cdn.paxton.rip/B0TnxDf0no00/direct.png)
@@ -8,7 +8,7 @@
 > [!IMPORTANT]
 > If you fork this project, consider giving it a star in the original repository!
 
-**Join Our [Discord Community](https://discord.gg/goabyss) for support, more links, and an active community!**
+**Join Our [Discord Community](https://discord.gg/gofun games) for support, more links, and an active community!**
 
 ## Features
 
@@ -30,18 +30,18 @@
 ### Server Deployment
 
 You must run these commands on your server:  
-`git clone https://github.com/AbyssServices/Abyss-Web`  
-`cd Abyss-Web`  
+`git clone https://github.com/fun gamesServices/fun games-Web`  
+`cd fun games-Web`  
 `npm install`  
 `npm start`
 
 ### Updating
 
-`cd Abyss-Web`  
+`cd fun games-Web`  
 `git pull --force --allow-unrelated-histories`
 
-<a target="_blank" href="https://heroku.com/deploy/?template=https://github.com/AbyssServices/Abyss-Web"><img alt="Deploy to Heroku" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/heroku.svg"></a>
-<a target="_blank" href="https://vercel.com/new/clone?repository-url=https://github.com/AbyssServices/Abyss-Web"><img alt="Deploy to Vercel" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/vercel.svg"></a>
+<a target="_blank" href="https://heroku.com/deploy/?template=https://github.com/fun gamesServices/fun games-Web"><img alt="Deploy to Heroku" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/heroku.svg"></a>
+<a target="_blank" href="https://vercel.com/new/clone?repository-url=https://github.com/fun gamesServices/fun games-Web"><img alt="Deploy to Vercel" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/vercel.svg"></a>
 
 #### What happened to Replit Deployment?
 
@@ -65,11 +65,11 @@ As of January 1st, 2024, Replit is [no longer free](https://blog.replit.com/host
 4. Right-click Visibility and set Port Visibility to Public.
 
 > [!NOTE]
-> We are committed to making Abyss easy and personalized however, as of now we need your support in making it ad-free. Consider keeping ads so Abyss can run freely or contribute by being a supporter.
+> We are committed to making fun games easy and personalized however, as of now we need your support in making it ad-free. Consider keeping ads so fun games can run freely or contribute by being a supporter.
 
 ## Report Issues
 
 If you encounter problems, open an issue on GitHub, and we'll address it promptly.
 
 > [!TIP]
-> If you're having trouble, don't hesitate to reach out to us on [Discord](https://discord.gg/goabyss) for personalized support.
+> If you're having trouble, don't hesitate to reach out to us on [Discord](https://discord.gg/gofun games) for personalized support.

@@ -172,7 +172,7 @@ function log() {
   setTimeout(
     console.log.bind(
       console,
-      "%cAbyss Web",
+      "%cfun games Web",
       "background: #6670FF;color:#FFF;padding:5px;border-radius: 5px;line-height: 26px; font-size:30px;"
     )
   );
@@ -193,7 +193,7 @@ function log() {
   setTimeout(
     console.log.bind(
       console,
-      "%cDo not share output to anyone but trusted Abyss developers with a role in the server! Someone may steal your info.",
+      "%cDo not share output to anyone but trusted fun games developers with a role in the server! Someone may steal your info.",
       "background: #6670FF;color:#FFF;padding:5px;border-radius: 5px;line-height: 26px; font-size:16px;"
     )
   );
@@ -315,7 +315,7 @@ const recordKeys = (elem, timeLimit) => {
 
 const cloakTitle = (title) => {
   if (title.trim() == "") {
-    title = "Abyss";
+    title = "fun games";
   }
   document.title = title;
   localStorage.setItem("title", title);
@@ -455,9 +455,9 @@ const openNewtab = () => {
 };
 
 let splashtext = [
-  "check out discord.gg/goabyss",
+  "check out discord.gg/gofun games",
   "made by paxton warin",
-  "want your own link? check out discord.gg/goabyss",
+  "want your own link? check out discord.gg/gofun games",
   "thanks for using the site!",
   "check out the settings page",
   "check out the games page",
@@ -470,7 +470,7 @@ let splashtext = [
 
 const runService = async (url, override, overrideadrbar) => {
   if (url.trim() == "") return;
-  if (ts.getActiveTab() == null || url == "abyss://settings" || url == "abyss:settings" || url == "abyss:apps" || url== "abyss://apps") {
+  if (ts.getActiveTab() == null || url == "fun games://settings" || url == "fun games:settings" || url == "fun games:apps" || url== "fun games://apps") {
     openNewtab();
   }
   const activeTab = ts.getActiveTab();
@@ -484,8 +484,8 @@ const runService = async (url, override, overrideadrbar) => {
     if (mainStartElement) {
       mainStartElement.style.display = "none";
     }
-    if (/^(abyss:)(\/)*[a-z]*/.test(url)) {
-      url = url.replace(/^(abyss:)(\/)*/, "");
+    if (/^(fun games:)(\/)*[a-z]*/.test(url)) {
+      url = url.replace(/^(fun games:)(\/)*/, "");
       const adrbarInputElement = document.getElementById("adrbar");
       if (adrbarInputElement instanceof HTMLInputElement) {
         adrbarInputElement.value = "";
@@ -512,7 +512,7 @@ const runService = async (url, override, overrideadrbar) => {
           
           return;
         case "apps":
-          const appsPlaceholder = "abyss apps (abyss://apps)";
+          const appsPlaceholder = "fun games apps (fun games://apps)";
           if (tabElement.querySelectorAll(".extFrame").length > 0) {
             tabElement.querySelectorAll(".extFrame").forEach((frame) => {
               frame.remove();
@@ -534,7 +534,7 @@ const runService = async (url, override, overrideadrbar) => {
             setTimeout(initAppSearch, 1);
         return;
         case "settings":
-          const settingsPlaceholder = "abyss settings (abyss://settings)";
+          const settingsPlaceholder = "fun games settings (fun games://settings)";
           if (tabElement.querySelectorAll(".extFrame").length > 0) {
             tabElement.querySelectorAll(".extFrame").forEach((frame) => {
               frame.remove();
@@ -559,7 +559,7 @@ const runService = async (url, override, overrideadrbar) => {
             }
             settingsTemplate.querySelector(".panicURL").value = window.panicURL;
             settingsTemplate.querySelector(".tabTitle").placeholder =
-              localStorage.getItem("title") || "Abyss";
+              localStorage.getItem("title") || "fun games";
             settingsTemplate.querySelector(".tabIcon").placeholder =
               localStorage.getItem("favicon") || "Default Favicon";
             activeTab.getConnectedElement().querySelector("span").innerText =
@@ -582,7 +582,7 @@ const runService = async (url, override, overrideadrbar) => {
             aboutTemplate.style.display = "initial";
             tabElement.appendChild(aboutTemplate);
             activeTab.getConnectedElement().querySelector("span").innerText =
-              "About Abyss";
+              "About fun games";
           }
           return;
         default:
@@ -998,7 +998,7 @@ function tabSwitch(parse) {
 }
 
 function resetTab() {
-  cloakTitle('Abyss')
+  cloakTitle('fun games')
   cloakFavicon('assets/favicon.ico')
 }
 
